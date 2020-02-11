@@ -3,9 +3,11 @@ body {
 	margin: 10px;
 }
 
+/* nav style */
+
 .navbar-brand{
     font-family: 'Roboto', sans-serif;
-    color: #1fe8b6;
+    color: #eee;
     font-weight: bold;
 	font-size: 25px;
 	margin-left: 40px;
@@ -70,9 +72,32 @@ body {
     color: #272838;
 }
 
-.active-nav {
-	color: #eee;
+
+.active-nav .fa-home{
+    color: #eee;
+    font-size: 1.5rem;
 }
+
+.fa-home{
+    font-size: 1.5rem;
+}
+
+a#navbarDropdownMenuLink.nav-link.dropdown-toggle.active-nav{
+    color: #eee;
+}
+
+.navbar-custom .navbar-nav a.nav-link.active-nav{
+    color: #eee;  
+}
+
+/* nav style */
+
+/* header style */
+ .card-header{
+    background-color: #272838;
+    color: #1fe8b6;
+ }
+/* nav style */
 
 footer.footer{
 	background-color:#eee;
@@ -92,10 +117,18 @@ footer.footer{
 }
 .fa-globe{
     margin-right: 0.5rem;
-    color: #1fe8b6;
+    color: #eee;
 }
 .fab:hover , .fas.fa-at:hover {
     opacity: 0.45;
+}
+
+img.maxtemp, 
+img.cloudiness,
+img.humidity,
+img.windspeed{
+    border: 2px solid #272838;
+    padding: 15px;
 }
 
 .footer p{
