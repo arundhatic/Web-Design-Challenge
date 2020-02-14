@@ -106,12 +106,12 @@ footer.footer{
 	padding: 10px 10px;
 }
 
-.fab , .fas.fa-at{
+.fab , .fas.fa-envelope-open-text{
 	color: #272838;
   	margin: 5px 2px;
 }
 
-.fas .fa-at .fa-2x .fa-linkedin .fa-github{
+.fas .fa-envelope-open-text .fa-2x .fa-linkedin .fa-github{
     color: #272838;
   	margin: 5px 2px;
 }
@@ -119,7 +119,7 @@ footer.footer{
     margin-right: 0.5rem;
     color: #eee;
 }
-.fab:hover , .fas.fa-at:hover {
+.fab:hover , .fas.fa-envelope-open-text:hover {
     opacity: 0.45;
 }
 
